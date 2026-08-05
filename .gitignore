@@ -1,0 +1,22 @@
+# Ignorar logs locais e arquivos de execução
+*.log
+*.out
+*.err
+
+# Ignorar exportações de dados que podem conter informações sensíveis
+*.csv
+*.txt
+*.json.bak
+
+# Ignorar arquivos temporários do Linux/Bash
+*~
+.DS_Store
+.bash_history
+
+# Ignorar configurações locais do VS Code
+.vscode/
+
+# Ignorar chaves SSH locais acidentais
+*.pem
+*.key
+*.cert
