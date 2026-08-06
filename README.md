@@ -14,6 +14,7 @@ These scripts are designed to be platform-agnostic and have been successfully de
 |---|---|
 | [Configure-LeastPrivilegeEnvironment](./Configure-LeastPrivilegeEnvironment) | Uses Polkit and sudoers drop-in files to allow developers to manage OpenVPN, Charles Proxy, and /etc/hosts without requiring full root access. |
 | [Install-MongoDBToolchain](./Install-MongoDBToolchain) | Idempotent script to install MongoDB Server, Shell, and Compass, including granular sudoers aliases for developer service management. |
+| [Configure-GeminiCLI](./Configure-GeminiCLI) | Detects and remediates Gemini CLI authentication issues, forcing the corporate GCP license flow for all users and fixing TLS errors. |
 
 ---
 ## 💻 About Me
